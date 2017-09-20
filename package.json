@@ -1,0 +1,23 @@
+{
+  "name": "flysasbotapp",
+  "version": "1.0.0",
+  "description": "This is flight search bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunThakurDev/flysasbotapp.git"
+  },
+  "author": "Arjun Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArjunThakurDev/flysasbotapp/issues"
+  },
+  "homepage": "https://github.com/ArjunThakurDev/flysasbotapp#readme",
+  "dependencies": {
+    "botbuilder": "^3.9.1",
+    "restify": "^6.0.1"
+  }
+}
