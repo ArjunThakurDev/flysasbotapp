@@ -39,12 +39,3 @@ var bot = new builder.UniversalBot(connector, [
         session.endDialog();
     }
 ]);
-
-bot.dialog('greetings', [
-    function (session) {
-        session.beginDialog('askName');
-    },
-    function (session, results) {
-        session.endDialog('Hello %s!', results.response);
-    }
-]);
