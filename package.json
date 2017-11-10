@@ -1,23 +1,30 @@
 {
-  "name": "flysasbotapp",
+  "name": "ndc-bot",
   "version": "1.0.0",
-  "description": "This is flight search bot",
-  "main": "index.js",
+  "description": "Microsoft Bot Framework with DialogFlow API",
+  "main": "app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArjunThakurDev/flysasbotapp.git"
+    "url": "git+https://git.heroku.com/test-app-ndc.git"
   },
-  "author": "Arjun Thakur",
+  "author": "Devayan Sarkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArjunThakurDev/flysasbotapp/issues"
+    "url": "https://git.heroku.com/test-app-ndc/issues"
   },
-  "homepage": "https://github.com/ArjunThakurDev/flysasbotapp#readme",
+  "homepage": "https://git.heroku.com/test-app-ndc#readme",
   "dependencies": {
-    "botbuilder": "^3.9.1",
-    "restify": "^6.0.1"
+    "api-ai-recognizer": "^1.1.1",
+    "botbuilder": "^3.10.2",
+    "botbuilder-calling": "latest",
+    "botbuilder-facebookextension": "^1.2.4",
+    "express": "^4.16.1",
+    "request": "^2.83.0",
+    "save-file": "^1.2.0",
+    "write": "^1.0.3"
   }
 }
